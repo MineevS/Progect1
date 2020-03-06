@@ -1,4 +1,4 @@
-//Определение функций
+//Определение функций.
 
 #include "header_Quadrangles.h"
 
@@ -22,12 +22,12 @@ float Square::getA()
 	return 0;
 }
 
-void Square::calculateS()
+void Square::colculateS()
 {
 	S = a*a;
 }
 
-void Square::calculateP()
+void Square::colculateP()
 {
 	P = 4*a;
 }

@@ -17,8 +17,8 @@
 			
 			float getA();
 			
-			void calculateS() override;
-			void calculateP() override;
+			void colculateS() override;
+			void colculateP() override;
 		
 		protected:
 			float a;

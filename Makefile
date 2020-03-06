@@ -1,7 +1,7 @@
 CC=g++                          # указываем компилятор
 LDFLAGS=                        # флаги линковщика
 CFLAGS=-std=c++11 -c -MD        # флаги компилятора //
-SOURCES= main.cpp MyString.cpp  # список исходников
+SOURCES=main.cpp source_Figures.cpp source_Quadrangles.cpp # список исходников
 OBJECTS=$(SOURCES:.cpp=.o)
 TARGET=str                      # имя бинарника
 

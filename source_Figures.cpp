@@ -1,4 +1,4 @@
-//Определение функций
+//Определение функций.
 
 #include "header_Figures.h"
 
@@ -7,10 +7,10 @@ Figure::Figure(const string &name)
 	Name = name;
 	
 	S=0;
-	p=0;
+	P=0;
 }
 
-string Fugure::getName()//Метод возвращает Имя фигуры.
+string Figure::getName()//Метод возвращает Имя фигуры.
 {
 	return Name;
 }
